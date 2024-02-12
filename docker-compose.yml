@@ -78,7 +78,7 @@ services:
       KEYCLOAK_API_URL: /admin/realms/aulassteammeta
       KEYCLOAK_BASE_URL: http://tumlab.local:8080/auth
       KEYCLOAK_CLIENT_ID: client-api
-      KEYCLOAK_CLIENT_SECRET: ZZmlv8Ink9rGFZBeLlbW3dOOQQmoIwvA
+      KEYCLOAK_CLIENT_SECRET: o1n5dFYcq3aP8Y3M8ShBN2IyeDemfsJC
       KEYCLOAK_GET_TOKEN_URL: /realms/aulassteammeta/protocol/openid-connect/token
       OVERRIDE_DB_HOST: host.docker.internal
       OVERRIDE_DB_PASSWORD: Tumlab2022*
@@ -101,7 +101,7 @@ services:
       - "tumlab.local:192.168.4.1"
     environment:
       KEYCLOAK_CLIENT_ID: sireporterfrontend
-      KEYCLOAK_CLIENT_SECRET: QnboD1P3T9cxaZgiqRDo9O5HTIAW0tls
+      KEYCLOAK_CLIENT_SECRET: baohqIsthWpNNTD6ZE4zydsGQ6qkhsnf
       KEYCLOAK_HOST: http://tumlab.local:8080/auth
       KEYCLOAK_REALM: aulassteammeta
       NEXT_PUBLIC_DEFAULT_AUTH_PROVIDER: keycloak
