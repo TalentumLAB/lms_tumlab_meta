@@ -93,7 +93,7 @@ services:
       - aulas-steam-net
 
   frontend:
-    image: bilinguismotalentum/frontend:1.0.1-meta
+    image: bilinguismotalentum/frontend:1.0.2-steam-meta
     container_name: bilng_reporter_frontend
     restart: always
     extra_hosts:
